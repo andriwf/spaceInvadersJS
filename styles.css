@@ -1,0 +1,60 @@
+.body {
+    /*justify-content: center;*/
+    display: flex;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.invader {
+    
+    border-radius: 5px;
+    background-image: url(invader.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.shooter {
+    
+    border-radius: 0px;
+    background-image: url(shooter.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.results {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+
+.timer {
+    
+}
+
+.laser {
+    background-image: url(laser.png);
+}
+
+.boom {
+    background-image: url(explosion.png);
+}
